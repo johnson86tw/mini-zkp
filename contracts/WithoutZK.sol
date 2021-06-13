@@ -20,10 +20,7 @@ contract WithoutZK {
   }
 
   function verify(uint256 _secret) public view returns(bool){
-    if (calculate(_secret) == answer) {
-      return true;
-    }
-    return false;
+    return calculate(_secret) == answer;
   }
 
   function calculate(uint256 _secret) public pure returns(uint256) {
