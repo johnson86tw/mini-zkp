@@ -1,0 +1,17 @@
+{
+  "name": "mini-zkp",
+  "license": "MIT",
+  "scripts": {
+    "build": "bash ./scripts/build_circuits.sh && bash ./scripts/build_verifier.sh",
+    "test": "npx hardhat test"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.3.1",
+    "hardhat": "^2.3.3",
+    "snarkjs": "^0.4.5"
+  }
+}

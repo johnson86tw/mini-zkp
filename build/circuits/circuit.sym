@@ -1,0 +1,6 @@
+1,2,0,main.secret
+2,1,0,main.out
+3,2,1,main.square.in
+4,3,1,main.square.out
+5,3,2,main.add.in
+6,1,2,main.add.out
